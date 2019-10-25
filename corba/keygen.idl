@@ -1,0 +1,6 @@
+module KeyGen {
+    interface Generator {
+        string codeKey(in string key);
+        string decodeKey(in string key);
+    };
+};
